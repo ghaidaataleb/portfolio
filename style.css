@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header {
+    background-color: rgb(3, 63, 40);
+    width: 100%;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    z-index: 999;
+    align-items: center;
+    padding: 15px 200px;
+}
+
+ .navigation a{
+    color: bisque;
+    text-decoration: none;
+padding-left: 40px;
+font-weight: 500;
+}
+section {
+    padding: 100px 200px;
+}
+.main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(ghaida.jpg) no-repeat;
+    background-size:contain;
+   background-position: center right;
+   background-color: bisque;
+}
+.main h2{
+    font-weight: 800;
+    color:  rgb(3, 63, 40);
+    font-size: 3.5em;
+}
+.main h2 span{
+    font-size: 1em;
+    font-weight: 600;
+    margin-top: 50px;
+}
+.load {
+background-color:  rgb(3, 63, 40);
+color: bisque;
+letter-spacing: 1px;
+text-decoration: none;
+border-radius: 6px;
+padding: 8px;
+font-weight: 500;
+display: inline-block;
+
+}
+.load:hover{
+    background-color: lightseagreen;
+}
+.social-icons a{
+    color: rgb(22, 15, 15);
+    font-size: 2.1em;
+    padding-right: 30px;
+}
+.tittle {
+    display: flex;
+    justify-content: center;
+    font-weight: 900;
+    color: bisque;
+}
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    box-shadow: 2px 2px 5px rgba(1 1 1, 100%);
+}
+.se {
+    background-color: rgb(3, 63, 40);
+}
+.sk {
+    display: flex;
+    justify-content: center;
+    font-weight: 900;
+    color: rgb(3, 63, 40);
+}
+.icons{
+    font-size: 90px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.se1 {
+    background-color: bisque;
+}
+.exp {
+    background-color:  rgb(3, 63, 40);
+}
+.two {
+    color: bisque;
+    display: flex;
+    justify-content: center;
+    font-weight: 900;
+}
+.or{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+}
+.cont {
+    background-color: bisque;
+    text-align: center;
+}
+.sen {
+    color:  rgb(3, 63, 40);
+    display: flex;
+    justify-content: center;
+    font-weight: 900;
+
+}
+.for{
+align-items: center;
+}
+input,textarea{
+    width:25%;
+}
+.send-email-btn{
+    background-color:  rgb(3, 63, 40);
+color: bisque;
+letter-spacing: 1px;
+text-decoration: none;
+border-radius: 6px;
+padding: 8px;
+font-weight: 500;
+display: inline-block;
+width:25%;
+}
+.footer-section{
+    text-align: center;
+    background-color: rgb(3, 63, 40);
+    color: bisque;
+}
+.social-icons a{
+color: bisque;
+}
+
