@@ -4,23 +4,29 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
+/* header section ................. */
 header {
     background-color: rgb(3, 63, 40);
     width: 100%;
     display: flex;
     position: fixed;
-    justify-content: space-between;
-    z-index: 999;
+    justify-content:space-around;
+     z-index: 999; 
     align-items: center;
-    padding: 15px 200px;
+    /* padding: 15px 200px; */
 }
-
+.navigation {
+    width:80%;
+}
  .navigation a{
     color: bisque;
     text-decoration: none;
-padding-left: 40px;
-font-weight: 500;
+    width:100%;
+    padding-left: 7%;
+/* font-weight: 500; */
+    font-size: 25px;
 }
+/* end header section ................. */
 section {
     padding: 100px 200px;
 }
@@ -72,11 +78,18 @@ display: inline-block;
 .content {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     box-shadow: 2px 2px 5px rgba(1 1 1, 100%);
 }
 .se {
     background-color: rgb(3, 63, 40);
+}
+.bre1 {
+    color: bisque;
+    display: flex;
+    justify-content: space-around;
+text-align: center;
+font-size: larger;
 }
 .sk {
     display: flex;
@@ -88,6 +101,12 @@ display: inline-block;
     font-size: 90px;
     display: flex;
     justify-content: space-evenly;
+}
+.bre {
+display: flex;
+justify-content: space-evenly;
+font-size: larger;
+color: rgb(3, 63, 40);
 }
 .se1 {
     background-color: bisque;
@@ -107,9 +126,13 @@ display: inline-block;
         margin-right: auto;
         
 }
+.bre3 {
+    color: bisque;
+text-align: center;
+}
 .cont {
     background-color: bisque;
-    text-align: center;
+    text-align:left;
 }
 .sen {
     color:  rgb(3, 63, 40);
@@ -135,12 +158,49 @@ font-weight: 500;
 display: inline-block;
 width:25%;
 }
+
 .footer-section{
-    text-align: center;
-    background-color: rgb(3, 63, 40);
-    color: bisque;
+    text-align:right;
+    margin-top: -30%;
+    color:  rgb(3, 63, 40);
 }
 .social-icons a{
+color:  rgb(3, 63, 40);
+}
+.tittle1 {
+    display: flex;
+    justify-content: center;
+    font-size: 2.2em;
+    font-weight:900;
+    margin-bottom: 30px;
 color: bisque;
 }
-
+.content11 {
+display: flex;
+justify-content: space-evenly;
+flex-direction: row;
+flex-wrap: wrap;
+margin: 0 auto;
+}
+.card {
+    background-color: white;
+    width: 21.25em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card:hover {
+    background-color: goldenrod;
+}
+ .ph {
+    width: 100%;
+}
+/* .image-edu {
+    width: 100%;
+}  */
+.cards {
+    background-color:  rgb(3, 63, 40);
+    
+}
